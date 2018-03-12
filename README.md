@@ -35,6 +35,8 @@ Furthermore Micro Frontends can be rendered at the server or client, both approa
 
 ... is a collection of tools, allowing server- and clientside rendering of Micro Frontends. The project contains tools like Tailor.js for UI composition, Skipper for HTTP routing and Tessellate for SSR. I implemented a POC using a couple of Project Mosaic's tools. The tools I didn't use, are largely un-documented or not open source.
 
+#### POC I implemented using Project Mosaic
+
 I implemented three natively server side rendered React.js applications, composed with Tailor.js and routed with Skipper: Cart, User and Product Highlight application
 
 ![Micro Frontends in real life](./micro_frontends.png)
