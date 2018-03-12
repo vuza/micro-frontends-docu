@@ -1,15 +1,18 @@
 # Micro Frontends: Documentation
 
 This repository describes various concepts which allow development and deployment of Micro Frontends.
-I implemented a POC covering this topic, [jump to Project Mosaic](#project-mosaic) to have a look.
+
+I implemented a POC covering this topic, [jump to "Project Mosaic"](#project-mosaic) to have a look.
+
+Also I'm looking for a couple of people and/or external input to answer questions covered at ["Future research"](#future-research)
 
 ## Contents
 
 - [What are Micro Frontends](#what-are-micro-frontends)
 - [Motivation](#motivation)
-- [Various approaches to build Micro Frontends](various-approaches-to-build-micro-frontends)
-    - [Project Mosaic](project-mosaic)
-- [Future research](future-research)
+- [Various approaches to build Micro Frontends](#various-approaches-to-build-micro-frontends)
+    - [Project Mosaic](#project-mosaic)
+- [Future research](#future-research)
 
 ## What are Micro Frontends?
 
@@ -38,7 +41,7 @@ I implemented three natively server side rendered React.js applications, compose
 
 Have a look at the applications and service setups and their documentation to understand the details of this POC:
 
--[Cart application](https://github.com/vuza/micro-frontends-cart)
+- [Cart application](https://github.com/vuza/micro-frontends-cart)
 - [Product Highlight application](https://github.com/vuza/micro-frontends-highlights)
 - [User application](https://github.com/vuza/micro-frontends-user)
 - [Tailor.js setup](https://github.com/vuza/micro-frontends-tailor)
