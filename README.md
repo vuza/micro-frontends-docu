@@ -24,13 +24,13 @@ micro-frontends.org
 
 ## Motivation
 
-In an ideal world a single team has a mission or business value to fulfill and has all tools to be capable to do so in its hand. With traditional web applications this is impossible to realize. No matter which technology you choose, in the end your React.js, Angular or Vue.js application gets compiled to a huge frontend monolith. However, similar to microservices in the backend you should enable your team to have their own release cycles, tools sets and deployment. If a team's mission is to build a webshop's cart application it should be able of fulfilling this task by developing everything from storage and logic to the UI and therefore be a real vertical team. To allow vertical teams in combination with web applications you need a UI composition strategy to sew everything together at one or the other point.
+In an ideal world a single team has a mission or business value to fulfill and has all tools to be capable to do so in its hand. With traditional web applications this is impossible to realize. No matter which technology you choose, in the end your React.js, Angular or Vue.js application gets compiled to a huge frontend monolith. However, similar to microservices in the backend, you should enable your team to have their own release cycles, tools sets and deployment. If a team's mission is to build a webshop's cart application it should be able of fulfilling this task by developing everything from storage and logic to the UI and therefore be a real vertical team. To allow vertical teams in combination with web applications you need a UI composition strategy to sew everything together at one or the other point.
 
 ![Vertical Teams with Micro Frontends](./vertical_teams.png)
 
 ## Various approaches to build Micro Frontends
 
-When I talk about Micro Frontends, I talk about web based GUIs which are composed at runtime. If multiple applications get sewed together at compile time, the Micro Frontend concept does not solve problems like independent release cycles and high exchangeability.
+When I talk about Micro Frontends, I talk about web based GUIs which are composed at runtime. If multiple applications get sewed together at compile time, the Micro Frontend concept does not solve problems like independent release cycles, high exchangeability and free choice of technology.
 Furthermore Micro Frontends can be rendered at the server or client, both approaches are valid, can be mixed and might have their own dis- and advantages.
 
 ### Project Mosaic
@@ -57,7 +57,7 @@ Now we understood the challenges and have a very simple solution to most of them
 
 ### Next tasks
 
-In order to extend this (or a similar) repository with many other possible approaches and their (dis-)advantages I want to extend the current POC or build a new one based on the current one's key learnings.
+In order to extend this (or a similar) repository with many other possible approaches and their (dis-)advantages I want to extend the current Micro Frontends webshop POC or build a new Micro Frontend webshop based on the current one's key learnings.
 
 **Questions to be answered**
 
@@ -71,11 +71,11 @@ In order to extend this (or a similar) repository with many other possible appro
 
 **Iterative goals**
 
-I propose the following very high level time boxed goals for one or two week sprints, depending on available time.
+I propose the following very high level and time boxed goals for one or two week sprints,depending on available time, in order to answer above questions and fill this repository with many more learning about different approaches.
 
 1. A full functioning UI composition framework was found, documented, set up including CI pipeline, deployment description and only waits for the implementation of Micro Frontends.
 2. Each Micro Frontend has a basic implementation, it either delivers pre-rendered HTML or a JS module, which gets rendered on the client side. It includes scoped CSS and JS and has basic functionality. The UI composition solution can show all these Micro Frontends.
-3. JWT or an comparable concept gets used to build stateless applications and enable server side rendering. The UI components con communicate on the client side. Authentication will be necessary for this features.
+3. JWT or an comparable concept gets used to build stateless applications and enable server side rendering. The UI components can communicate on the client side. Authentication will be necessary for this features.
 4. Each Micro Frontend and the overall solution is documented, so that it can be used for blog article, conference talks and further trainings.
 
 ## External sources
