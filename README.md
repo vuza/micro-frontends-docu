@@ -82,6 +82,7 @@ I propose the following very high level time boxed goals for one or two week spr
 
 Although Micro Frontends still is not a well known paradigm, there are a couple of people working on that concept.
 
+- A whole domain dedicated to this topic: http://micro-frontends.org
 - Talk about transclusion: https://speakerdeck.com/lapaqui/transklusion-kitt-fur-gut-geschnittene-webanwendungen
 - ToughtWorks technolog radar promoting Micro Frontends: https://www.thoughtworks.com/radar/techniques
 - A great and big collection of sources around this topic: https://micro-frontends.zeef.com/elisabeth.engel?ref=elisabeth.engel&share=ee53d51a914b4951ae5c94ece97642fc
