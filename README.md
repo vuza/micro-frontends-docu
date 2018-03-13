@@ -2,9 +2,10 @@
 
 This repository describes various concepts which allow development and deployment of Micro Frontends.
 
-**I implemented a POC covering this topic**, [jump to "POC I implemented using Project Mosaic"](#poc-i-implemented-using-project-mosaic) to have a look.
+**Personal motivation for this repository**
 
-Also, **I'm looking for a couple of people** and/or external input to answer questions covered at ["Future research"](#future-research).
+- **I implemented a POC covering this topic**, and am happy for every input: ["POC I implemented using Project Mosaic"](#poc-i-implemented-using-project-mosaic)
+- Also, **I'm looking for a couple of people** and/or external input to answer questions covered at ["Future research"](#future-research)
 
 ## Contents
 
